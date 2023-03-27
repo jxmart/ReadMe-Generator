@@ -1,14 +1,14 @@
 {
-  "name": "static-site",
+  "name": "user-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "challenge 9",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "James",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.5.2"
   }
 }
