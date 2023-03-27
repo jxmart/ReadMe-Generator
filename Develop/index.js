@@ -1,10 +1,10 @@
-let fs = require('fs')
-const inquirer = require('inquirer')
-const generateHTML = function ({name, location, pets, github, linkedin, hobby })
+let fs = require('fs'),
+const inquirer = require('inquirer'),
+const generateHTML = function ({name, location, email, github, linkedin, projectName}),
 
 
 const questions = () => {
-    return inquirer.prompt([
+    inquirer.prompt([
      {
         type: 'input',
         name: 'name',
@@ -20,8 +20,8 @@ const questions = () => {
 
      {
         type: 'input',
-        name: 'pets',
-        message: 'Do you have any pets?'
+        name: 'email',
+        message: 'What is your email address?'
      },
 
      {
@@ -33,13 +33,30 @@ const questions = () => {
      {
         type: 'input',
         name: 'linkedin',
-        
+        message: 'Type your LinkedIn url'
+      },
+
+     {
+         type: 'input',
+         name: 'project-name',
+         message: 'what is your project name?'
      }
     ])
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(README, data) {
+   fs.writeFile('README.md', data, err => {
+      // if there is an error 
+      if (err) {
+          console.log(err);
+          return;
+      // when the README has been created 
+      } else {
+          console.log("Your README has been successfully created!")
+      }
+  })
+}
 
 // TODO: Create a function to initialize app
 function init() {}
