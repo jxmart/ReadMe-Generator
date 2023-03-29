@@ -1,5 +1,5 @@
 
-# 
+# README Generator
 
 # Table of Contents
 
@@ -13,8 +13,8 @@
 - [Questions](#questions)
 
 ## Description:
-![License](https://img.shields.io/badge/License--blue.svg "License Badge")
-undefined
+![License](https://img.shields.io/badge/License-Mit,apache,isc-blue.svg "License Badge")
+It creates a readme file
 ## Installation:
 undefined
 ## Usage:
@@ -22,14 +22,14 @@ undefined
 ## Contributing:
 undefined
 ## Test: 
-undefined
+npm test
 ## Credits:
 undefined
 ## License:
 For more information about the License, click on the link below.
-- [License](https://opensource.org/licenses/)
+- [License](https://opensource.org/licenses/Mit,apache,isc)
 ##  Questions:
 For questions about the Generator you can go to my 
 Github page at the following link:
 - [Github Profile](https://github.com/undefined)
-For additional questions please reach out to me via email at: .
+For additional questions please reach out to me via email at: jamesxmartin13@gmail.com.
